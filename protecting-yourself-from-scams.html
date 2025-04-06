@@ -35,33 +35,41 @@
       padding-left: 10px;
     }
 
-    .box {
-      background-color: #ffffff;
-      padding: 1.2rem 1.5rem;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.06);
-      margin-bottom: 2rem;
-    }
-
-    ul, ol {
-      padding-left: 1.2rem;
+    p, ul, ol {
       margin-top: 0.5rem;
+      padding-left: 1.2rem;
     }
 
     li {
       margin-bottom: 0.4rem;
     }
 
+    details {
+      background-color: #ffffff;
+      padding: 1.2rem 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+      margin-bottom: 1.5rem;
+    }
+
+    summary {
+      font-weight: bold;
+      font-size: 1.1rem;
+      color: #002145;
+      cursor: pointer;
+      margin-bottom: 0.8rem;
+    }
+
     .resources {
-      margin-top: 2rem;
+      margin-top: 2.5rem;
       padding: 1.2rem 1.5rem;
       background-color: #e0edf5;
       border-radius: 10px;
     }
 
     .resources h2 {
-      margin-bottom: 1rem;
       font-size: 1.15rem;
+      margin-bottom: 1rem;
     }
 
     .resources a {
@@ -79,18 +87,16 @@
   <div class="container">
     <h1>Protecting Yourself from Scams</h1>
 
-    <div class="box">
-      <h2>Why This Matters</h2>
-      <p>
-        Newcomers to Canada are often targeted by scammers because they may be unfamiliar with Canadian systems,
-        laws, or common scams. A survey found that 7 out of 10 newcomers feel more at risk of financial scams than
-        other Canadians. Learning how to spot scams and protect your personal information is critical to avoiding
-        losses and stress.
-      </p>
-    </div>
+    <h2>Why This Matters</h2>
+    <p>
+      Newcomers to Canada are often targeted by scammers because they may be unfamiliar with Canadian systems,
+      laws, or common scams. A survey found that 7 out of 10 newcomers feel more at risk of financial scams than
+      other Canadians. Learning how to spot scams and protect your personal information is critical to avoiding
+      losses and stress.
+    </p>
 
-    <div class="box">
-      <h2>Common Scams Targeting Newcomers</h2>
+    <details>
+      <summary>Common Scams Targeting Newcomers</summary>
       <ul>
         <li><strong>Fake Job Postings:</strong> Require fees or personal info like your SIN.</li>
         <li><strong>Phishing Attempts:</strong> Messages pretending to be from banks or IRCC.</li>
@@ -98,10 +104,10 @@
         <li><strong>Immigration Scams:</strong> Promises of faster PR or jobs for money.</li>
         <li><strong>Social Media Scams:</strong> Fake accounts stealing info or money.</li>
       </ul>
-    </div>
+    </details>
 
-    <div class="box">
-      <h2>How to Protect Yourself</h2>
+    <details>
+      <summary>How to Protect Yourself</summary>
       <ul>
         <li><strong>Limit Exposure:</strong>
           <ul>
@@ -134,15 +140,15 @@
           </ul>
         </li>
       </ul>
-    </div>
+    </details>
 
-    <div class="box">
-      <h2>How to Report Scams</h2>
+    <details>
+      <summary>How to Report Scams</summary>
       <ul>
         <li>Contact <strong>Canadian Anti-Fraud Centre (CAFC):</strong> 1-888-495-8501 or <a href="https://antifraudcentre-centreantifraude.ca/index-eng.htm" target="_blank">report online</a>.</li>
         <li>Report to your bank and immigration office (IRCC).</li>
       </ul>
-    </div>
+    </details>
 
     <div class="resources">
       <h2>Suggested Resources</h2>
