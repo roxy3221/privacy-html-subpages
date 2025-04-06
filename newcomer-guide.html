@@ -9,15 +9,21 @@
       font-family: 'Georgia', serif;
       background-color: #f5fafd;
       margin: 0;
-      padding: 2rem;
+      padding: 2rem 1rem;
       color: #1a2e3b;
       line-height: 1.6;
+    }
+
+    .container {
+      max-width: 750px;
+      margin: 0 auto;
     }
 
     h1 {
       font-size: 2.2rem;
       color: #002145;
-      margin-bottom: 1.5rem;
+      margin-bottom: 2rem;
+      text-align: center;
     }
 
     details {
@@ -25,12 +31,12 @@
       border-radius: 12px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.05);
       padding: 1rem 1.5rem;
-      margin-bottom: 1rem;
+      margin-bottom: 1.2rem;
     }
 
     summary {
       font-weight: bold;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       cursor: pointer;
       outline: none;
       margin-bottom: 0.5rem;
@@ -42,83 +48,90 @@
 
     a {
       color: #004d80;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
 
     @media (max-width: 768px) {
-      body {
-        padding: 1rem;
+      .container {
+        padding: 0 1rem;
       }
     }
   </style>
 </head>
 <body>
 
-  <h1>Newcomer’s Guide to Healthcare & Jobs</h1>
+  <div class="container">
+    <h1>Newcomer’s Guide to Healthcare & Jobs</h1>
 
-  <details open>
-    <summary>1. Healthcare: Why Language Matters</summary>
-    <p><strong>What’s Important:</strong> If you don’t speak English or French well, it can be hard to get good healthcare. Doctors and nurses might misunderstand your symptoms, or you might sign forms without knowing what they mean. This could lead to wrong treatments or sharing your private health details with others by accident.</p>
-    <p><strong>What to Do:</strong></p>
-    <ul>
-      <li>Ask for a professional interpreter at hospitals or clinics (it’s your right!).</li>
-      <li>Learn key health words in English/French (e.g., “pain,” “allergy”).</li>
-      <li>Use free language classes like LINC/CLIC (see resources below).</li>
-    </ul>
-  </details>
+    <details open>
+      <summary>1. Healthcare: Why Language Matters</summary>
+      <p><strong>What’s Important:</strong> If you don’t speak English or French well, it can be hard to get good healthcare. Doctors and nurses might misunderstand your symptoms, or you might sign forms without knowing what they mean. This could lead to wrong treatments or sharing your private health details with others by accident.</p>
+      <p><strong>What to Do:</strong></p>
+      <ul>
+        <li>Ask for a professional interpreter at hospitals or clinics (it’s your right!).</li>
+        <li>Learn key health words in English/French (e.g., “pain,” “allergy”).</li>
+        <li>Use free language classes like LINC/CLIC (see resources below).</li>
+      </ul>
+    </details>
 
-  <details>
-    <summary>2. Privacy Policies: Don’t Get Tricked</summary>
-    <p><strong>What’s Important:</strong> Privacy policies (rules about how companies use your data) are often in English or French. If you sign them without understanding, you might unknowingly share your address, phone number, or financial details with strangers.</p>
-    <p><strong>What to Do:</strong></p>
-    <ul>
-      <li>Always ask someone you trust to translate privacy forms.</li>
-      <li>Look for key details before signing:
-        <ul>
-          <li>What data is collected? (e.g., your name, birthdate)</li>
-          <li>Who gets your data? (e.g., banks, advertisers)</li>
-          <li>What are the risks? (e.g., identity theft)</li>
-        </ul>
-      </li>
-    </ul>
-  </details>
+    <details>
+      <summary>2. Privacy Policies: Don’t Get Tricked</summary>
+      <p><strong>What’s Important:</strong> Privacy policies (rules about how companies use your data) are often in English or French. If you sign them without understanding, you might unknowingly share your address, phone number, or financial details with strangers.</p>
+      <p><strong>What to Do:</strong></p>
+      <ul>
+        <li>Always ask someone you trust to translate privacy forms.</li>
+        <li>Look for key details before signing:
+          <ul>
+            <li>What data is collected? (e.g., your name, birthdate)</li>
+            <li>Who gets your data? (e.g., banks, advertisers)</li>
+            <li>What are the risks? (e.g., identity theft)</li>
+          </ul>
+        </li>
+      </ul>
+    </details>
 
-  <details>
-    <summary>3. Jobs: Why Language Skills Are Key</summary>
-    <p><strong>What’s Important:</strong> Most jobs in Canada require English or French. Without these skills, you might miss job opportunities, even if you’re highly skilled in your field.</p>
-    <p><strong>What to Do:</strong></p>
-    <ul>
-      <li>Take free government language classes (LINC for English, CLIC for French).</li>
-      <li>Practice job-specific terms (e.g., “customer service,” “safety training”).</li>
-      <li>Attend workshops at newcomer centers to build résumé and interview skills.</li>
-    </ul>
-  </details>
+    <details>
+      <summary>3. Jobs: Why Language Skills Are Key</summary>
+      <p><strong>What’s Important:</strong> Most jobs in Canada require English or French. Without these skills, you might miss job opportunities, even if you’re highly skilled in your field.</p>
+      <p><strong>What to Do:</strong></p>
+      <ul>
+        <li>Take free government language classes (LINC for English, CLIC for French).</li>
+        <li>Practice job-specific terms (e.g., “customer service,” “safety training”).</li>
+        <li>Attend workshops at newcomer centers to build résumé and interview skills.</li>
+      </ul>
+    </details>
 
-  <details>
-    <summary>4. Free Language Classes: Your Path to Success</summary>
-    <p><strong>What’s Important:</strong> Learning English or French helps you:
+    <details>
+      <summary>4. Free Language Classes: Your Path to Success</summary>
+      <p><strong>What’s Important:</strong> Learning English or French helps you:</p>
       <ul>
         <li>Understand doctors, teachers, and employers.</li>
         <li>Avoid scams and protect your privacy.</li>
         <li>Find better jobs and connect with your community.</li>
       </ul>
-    </p>
-    <p><strong>What to Do:</strong></p>
-    <ul>
-      <li>If you’re a permanent resident or protected person, you qualify for free classes.</li>
-      <li>Search for LINC/CLIC courses near you: <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/language-skills/classes.html" target="_blank">Canada.ca Language Classes</a>.</li>
-      <li>Contact local organizations like the <a href="https://www.ymcagta.org/immigrant-services" target="_blank">YMCA Newcomer Services</a> for help enrolling.</li>
-    </ul>
-  </details>
+      <p><strong>What to Do:</strong></p>
+      <ul>
+        <li>If you’re a permanent resident or protected person, you qualify for free classes.</li>
+        <li>Search for LINC/CLIC courses near you: <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/language-skills/classes.html" target="_blank">Canada.ca Language Classes</a>.</li>
+        <li>Contact local organizations like the <a href="https://www.ymcagta.org/immigrant-services" target="_blank">YMCA Newcomer Services</a> for help enrolling.</li>
+      </ul>
+    </details>
 
-  <details>
-    <summary>📚 Suggested Resources</summary>
-    <ul>
-      <li><a href="https://www.canada.ca/en/health-canada/services/health-care-system/reports-publications/health-care-accessibility/language-barriers.html" target="_blank">Language Barriers in Access to Health Care</a></li>
-      <li><a href="https://www.priv.gc.ca/en/privacy-topics/collecting-personal-information/consent/gl_omc_201805/" target="_blank">Guidelines for Obtaining Meaningful Consent</a></li>
-      <li><a href="https://www.ymcagta.org/immigrant-services" target="_blank">YMCA – Free Help for Newcomers</a></li>
-      <li><a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/language-skills/classes.html" target="_blank">Canada Language Training (LINC/CLIC)</a></li>
-    </ul>
-  </details>
+    <details>
+      <summary>Suggested Resources</summary>
+      <ul>
+        <li><a href="https://www.canada.ca/en/health-canada/services/health-care-system/reports-publications/health-care-accessibility/language-barriers.html" target="_blank">Language Barriers in Access to Health Care</a></li>
+        <li><a href="https://www.priv.gc.ca/en/privacy-topics/collecting-personal-information/consent/gl_omc_201805/" target="_blank">Guidelines for Obtaining Meaningful Consent</a></li>
+        <li><a href="https://www.ymcagta.org/immigrant-services" target="_blank">YMCA – Free Help for Newcomers</a></li>
+        <li><a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/language-skills/classes.html" target="_blank">Canada Language Training (LINC/CLIC)</a></li>
+      </ul>
+    </details>
+
+  </div>
 
 </body>
 </html>
