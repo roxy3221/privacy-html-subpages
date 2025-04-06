@@ -3,70 +3,75 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Resource Library – Privacy Toolkit</title>
+  <title>Resource Library</title>
   <style>
     body {
+      margin: 0;
+      padding: 0;
       font-family: 'Georgia', serif;
       background-color: #f0f6fb;
       color: #1a2e3b;
-      margin: 0;
-      padding: 2rem;
       text-align: center;
     }
 
     h1 {
-      font-size: 2.3rem;
-      margin-bottom: 0.5rem;
+      font-size: 2.5rem;
+      margin-top: 3rem;
       color: #002145;
     }
 
     p {
-      color: #555;
-      font-size: 1.1rem;
-      margin-bottom: 2rem;
+      font-size: 1.15rem;
+      color: #3b4d5c;
+      margin-top: 0.5rem;
+      margin-bottom: 2.5rem;
     }
 
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 1.5rem;
-      max-width: 900px;
-      margin: 0 auto;
+    .emoji {
+      font-size: 2.2rem;
+      margin-right: 0.3rem;
+      vertical-align: middle;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem;
     }
 
     .card {
-      background: white;
-      border-radius: 12px;
-      padding: 1.5rem;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.07);
-      transition: 0.3s ease;
+      background-color: #fff;
+      padding: 1.5rem 1.8rem;
+      border-radius: 14px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      width: 280px;
+      text-decoration: none;
+      color: #002145;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      font-size: 1.1rem;
     }
 
     .card:hover {
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    }
-
-    .card a {
-      text-decoration: none;
-      color: #1a2e3b;
-      font-weight: bold;
-    }
-
-    .card a:hover {
-      color: #003e6b;
+      transform: translateY(-4px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+      background-color: #eaf3f8;
     }
   </style>
 </head>
+
 <body>
-  <h1>📚 Resource Library</h1>
+  <h1><span class="emoji">📚</span>Resource Library</h1>
   <p>Explore key topics related to privacy, safety, AI, and digital protection in Canada.</p>
 
-  <div class="grid">
-    <div class="card"><a href="newcomer-guide.html">Newcomer’s Guide to Healthcare & Jobs</a></div>
-    <div class="card"><a href="how-police-use-data.html">How Police Use Your Data</a></div>
-    <div class="card"><a href="scam-protection.html">Protecting Yourself from Scams</a></div>
-    <div class="card"><a href="ai-and-newcomers.html">Understanding AI in Canada</a></div>
-    <!-- Add more here as needed -->
+  <div class="container">
+    <a class="card" href="newcomer-guide.html">Newcomer’s Guide to Healthcare & Jobs</a>
+    <a class="card" href="how-police-use-data.html">How Police Use Your Data</a>
+    <a class="card" href="protecting-yourself-from-scams.html">Protecting Yourself from Scams</a>
+    <a class="card" href="understanding-ai-in-canada.html">Understanding AI in Canada</a>
+    <a class="card" href="staying-safe-online.html">Staying Safe Online</a>
   </div>
 </body>
 </html>
