@@ -14,57 +14,57 @@
     }
 
     .container {
-      max-width: 800px;
+      max-width: 850px;
       margin: 3rem auto;
       padding: 0 1.5rem;
     }
 
     h1 {
-      font-size: 2.2rem;
       text-align: center;
+      font-size: 2.2rem;
       color: #002145;
       margin-bottom: 2rem;
     }
 
-    h2 {
-      font-size: 1.2rem;
-      margin-top: 2rem;
-      color: #002145;
-      border-left: 4px solid #002145;
-      padding-left: 10px;
-    }
-
-    .box {
+    details {
       background-color: #ffffff;
       padding: 1.2rem 1.5rem;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-      margin-bottom: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      margin-bottom: 1.2rem;
     }
 
-    ul, ol {
-      padding-left: 1.2rem;
-    }
-
-    li {
-      margin-bottom: 0.5rem;
+    summary {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #002145;
+      cursor: pointer;
+      margin-bottom: 0.8rem;
     }
 
     .resources {
       background-color: #e0edf5;
+      padding: 1.2rem 1.5rem;
       border-radius: 10px;
-      padding: 1rem 1.2rem;
       margin-top: 2rem;
     }
 
     .resources a {
       color: #002145;
-      font-weight: bold;
       text-decoration: none;
+      font-weight: bold;
     }
 
     .resources a:hover {
       text-decoration: underline;
+    }
+
+    ul, ol {
+      padding-left: 1.3rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
     }
   </style>
 </head>
@@ -72,44 +72,73 @@
   <div class="container">
     <h1>How Police Use Your Personal Data in Canada</h1>
 
-    <div class="box">
-      <h2>Why This Matters to You</h2>
+    <details open>
+      <summary>Why This Matters to You</summary>
       <p>
-        In Canada, police and government agencies collect personal data for public safety. As a newcomer, it's important to understand what is collected, how it’s used, and how to protect your privacy.
+        In Canada, police and government agencies collect personal data to prevent crime and manage public safety. However, this can affect your privacy, especially if you’re a newcomer unfamiliar with Canadian laws. Below is what you need to know to protect yourself.
       </p>
-    </div>
+    </details>
 
-    <div class="box">
-      <h2>How Your Data Is Collected</h2>
+    <details>
+      <summary>How Your Data Is Collected and Used</summary>
+      <p><strong>1. Biometrics (Fingerprints and Photos)</strong></p>
       <ul>
-        <li><strong>Biometrics:</strong> Fingerprints and photos are collected during immigration and may be stored for 15+ years or until age 100.</li>
-        <li><strong>Social Media:</strong> Police can access public content like friends lists, tags, and locations—even if your profile is set to private.</li>
+        <li>Collected when you apply for immigration, refugee status, or a visa.</li>
+        <li>Stored by the RCMP and IRCC.</li>
+        <li><strong>Retention:</strong> At least 15 years, or until your 100th birthday if:
+          <ul>
+            <li>You become a permanent resident</li>
+            <li>You claim refugee status</li>
+            <li>You are deemed inadmissible</li>
+            <li>You have a deportation order</li>
+          </ul>
+        </li>
       </ul>
-    </div>
+      <p><strong>2. Social Media Monitoring (SOCMINT)</strong></p>
+      <ul>
+        <li>Police may review public posts to investigate crimes.</li>
+        <li>Your data may be visible even if your profile is private:
+          <ul>
+            <li>Friends lists on Facebook</li>
+            <li>Location tags on Twitter/X</li>
+            <li>Photos or info shared by others</li>
+          </ul>
+        </li>
+      </ul>
+    </details>
 
-    <div class="box">
-      <h2>Privacy Risks</h2>
+    <details>
+      <summary>Privacy Risks You Should Know</summary>
       <ol>
-        <li><strong>Changing Settings:</strong> Social platforms may change privacy rules without notice.</li>
-        <li><strong>Public ≠ Free Use:</strong> Even public posts may still be protected by privacy expectations in Canadian law.</li>
+        <li><strong>Tricky Privacy Settings:</strong> Platforms change rules, encouraging public sharing.</li>
+        <li><strong>Public ≠ Free Use:</strong> Even public posts can be protected under Canadian privacy laws.</li>
       </ol>
-    </div>
+    </details>
 
-    <div class="box">
-      <h2>How to Protect Yourself</h2>
+    <details>
+      <summary>How to Protect Yourself</summary>
+      <p><strong>Biometrics</strong></p>
       <ul>
-        <li><strong>Biometrics:</strong> Ask how and why your data will be used.</li>
-        <li><strong>Social Media:</strong> Hide friends lists, turn off location tags, untag photos, and avoid sharing sensitive info.</li>
-        <li><strong>Learn:</strong> Understand PIBs—government databases tracking personal data use.</li>
+        <li>Ask why data is needed and how it will be used.</li>
       </ul>
-    </div>
+      <p><strong>Social Media</strong></p>
+      <ul>
+        <li>Lock profiles: hide friends lists and turn off location tags.</li>
+        <li>Remove tags from posts you didn’t create.</li>
+        <li>Don’t post sensitive personal details (job plans, travel dates).</li>
+      </ul>
+      <p><strong>Stay Informed</strong></p>
+      <ul>
+        <li>Learn about PIBs: databases that track how your data is stored/shared.</li>
+      </ul>
+    </details>
 
-    <div class="box">
-      <h2>Key Takeaway</h2>
+    <details>
+      <summary>Key Takeaway</summary>
       <p>
-        Your data can be used in ways you don’t expect. Knowing your rights helps you stay safer and more informed in Canada.
+        Your data—like biometrics or social media activity—can be used in ways you don’t expect. By knowing your rights and taking simple steps, you can protect your privacy in Canada.
       </p>
-    </div>
+    </details>
 
     <div class="resources">
       <h2>Suggested Resources</h2>
@@ -117,12 +146,14 @@
         <li>
           <a href="https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/access-information-privacy/info-source/personal-information-banks.html" target="_blank">
             Info Source: Personal Information Banks
-          </a> – Learn how Canada stores and uses biometric data.
+          </a><br/>
+          Explains how government agencies store and use biometric data.
         </li>
         <li>
           <a href="https://doi-org.myaccess.library.utoronto.ca/10.1093/ijlit/eaw007" target="_blank">
-            Journal Article on Social Media & Law
-          </a> – How law enforcement uses public data online.
+            International Journal of Law and Information Technology
+          </a><br/>
+          Discusses how police use public social media data, even when private.
         </li>
       </ul>
     </div>
