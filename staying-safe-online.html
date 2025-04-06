@@ -19,36 +19,60 @@
       padding: 0 1.5rem;
     }
 
-    h1, h2 {
-      color: #002145;
-    }
-
     h1 {
       font-size: 2.2rem;
-      margin-bottom: 1.5rem;
+      text-align: center;
+      color: #002145;
+      margin-bottom: 2rem;
     }
 
     h2 {
-      font-size: 1.4rem;
-      margin-top: 2.2rem;
+      font-size: 1.3rem;
+      color: #002145;
       border-left: 4px solid #002145;
       padding-left: 10px;
+      margin-top: 2rem;
     }
 
-    ul {
-      padding-left: 1.3rem;
-    }
-
-    .box {
+    details {
       background-color: #ffffff;
-      padding: 1rem 1.5rem;
-      border-radius: 12px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-      margin-top: 1.2rem;
+      padding: 1rem 1.3rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+      margin-bottom: 1.5rem;
+    }
+
+    summary {
+      font-weight: bold;
+      font-size: 1.1rem;
+      color: #002145;
+      cursor: pointer;
+      margin-bottom: 0.5rem;
+    }
+
+    ul, ol {
+      padding-left: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    .resources {
+      margin-top: 2.5rem;
+      padding: 1.2rem 1.5rem;
+      background-color: #e0edf5;
+      border-radius: 10px;
+    }
+
+    .resources h2 {
+      font-size: 1.15rem;
+      margin-bottom: 1rem;
     }
 
     .resources a {
-      color: #002145;
+      color: #1a2e3b;
       text-decoration: none;
       font-weight: bold;
     }
@@ -56,48 +80,43 @@
     .resources a:hover {
       text-decoration: underline;
     }
-
-    .resources {
-      margin-top: 2.5rem;
-      padding: 1rem 1.5rem;
-      background-color: #e0edf5;
-      border-radius: 10px;
-    }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Staying Safe Online</h1>
 
-    <div class="box">
-      <h2>Why Digital Safety Matters for Newcomers</h2>
-      <p>Canada faces growing cyber threats, like hackers attacking banks, hospitals, or government services. These attacks can disrupt daily life—for example, freezing online banking or shutting down hospital systems. As a newcomer, you may rely heavily on the internet for jobs, healthcare, and staying connected. But not all websites or apps are safe, and your personal data (like passwords or bank details) could be stolen if you’re not careful.</p>
-    </div>
+    <h2>Why Digital Safety Matters for Newcomers</h2>
+    <p>
+      Canada faces growing cyber threats, like hackers attacking banks, hospitals, or government services.
+      These attacks can disrupt daily life—for example, freezing online banking or shutting down hospital systems.
+      As a newcomer, you may rely heavily on the internet for jobs, healthcare, and staying connected.
+      But not all websites or apps are safe, and your personal data (like passwords or bank details) could be stolen if you’re not careful.
+    </p>
 
-    <div class="box">
-      <h2>Key Risks</h2>
+    <details>
+      <summary>Key Risks</summary>
       <ul>
         <li><strong>Unsecured networks:</strong> Public Wi-Fi (e.g., in cafes) can let hackers steal your data.</li>
         <li><strong>Fake websites/emails:</strong> Scammers might pretend to be the government (like IRCC).</li>
         <li><strong>Data leaks:</strong> Apps or services may accidentally expose your private information.</li>
       </ul>
-    </div>
+    </details>
 
-    <div class="box">
-      <h2>Digital Equity & Inclusion</h2>
+    <details>
+      <summary>Digital Equity & Inclusion</summary>
       <p><strong>Digital Equity</strong> means everyone can access technology needed for jobs, education, and services.</p>
       <p><strong>Digital Inclusion</strong> means ensuring even disadvantaged groups (like newcomers) can use the internet safely.</p>
-
-      <h2>Why This Matters</h2>
+      <h3 style="margin-top: 1rem;">Why This Matters</h3>
       <ul>
         <li>Job opportunities posted online</li>
         <li>Important updates about your immigration status</li>
         <li>Virtual healthcare appointments</li>
       </ul>
-    </div>
+    </details>
 
-    <div class="box">
-      <h2>How to Protect Yourself</h2>
+    <details>
+      <summary>How to Protect Yourself</summary>
       <ol>
         <li><strong>Use Strong Passwords:</strong> Combine letters, numbers, and symbols. Never reuse passwords.</li>
         <li><strong>Avoid Public Wi-Fi for Sensitive Tasks:</strong> Use mobile data when checking banks or personal info.</li>
@@ -105,13 +124,23 @@
         <li><strong>Keep Software Updated:</strong> Update phone, computer, and apps regularly.</li>
         <li><strong>Learn More:</strong> Visit Get Cyber Safe for multilingual tips.</li>
       </ol>
-    </div>
+    </details>
 
     <div class="resources">
       <h2>Suggested Resources</h2>
       <ul>
-        <li><a href="https://www.cyber.gc.ca/en/guidance/national-cyber-threat-assessment-2025-2026" target="_blank">National Cyber Threat Assessment 2025-2026</a><br/>Covers emerging cyber risks, including AI-driven scams and supply chain attacks.</li>
-        <li><a href="https://peelnewcomer.org/wp-content/uploads/sites/52/2025/01/Digital-Equity-in-Settlement-Services-Report_Final.pdf" target="_blank">Digital Equity for Newcomer Services Report</a><br/>Challenges newcomers face + hybrid service recommendations.</li>
+        <li>
+          <a href="https://www.cyber.gc.ca/en/guidance/national-cyber-threat-assessment-2025-2026" target="_blank">
+            National Cyber Threat Assessment 2025–2026
+          </a><br/>
+          Covers emerging cyber risks, including AI-driven scams and supply chain attacks.
+        </li>
+        <li>
+          <a href="https://peelnewcomer.org/wp-content/uploads/sites/52/2025/01/Digital-Equity-in-Settlement-Services-Report_Final.pdf" target="_blank">
+            Digital Equity for Newcomer Services Report
+          </a><br/>
+          Challenges newcomers face + hybrid service recommendations.
+        </li>
       </ul>
     </div>
   </div>
