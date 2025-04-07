@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>资源库</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Georgia', serif;
+      background-color: #f0f6fb;
+      color: #1a2e3b;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-top: 3rem;
+      color: #002145;
+    }
+
+    p {
+      font-size: 1.15rem;
+      color: #3b4d5c;
+      margin-top: 0.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .emoji {
+      font-size: 2.2rem;
+      margin-right: 0.3rem;
+      vertical-align: middle;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .card {
+      background-color: #fff;
+      padding: 1.5rem 1.8rem;
+      border-radius: 14px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      width: 280px;
+      text-decoration: none;
+      color: #002145;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      font-size: 1.1rem;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+      background-color: #eaf3f8;
+    }
+
+    .lang-toggle {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 0.95rem;
+    }
+
+    .lang-toggle a {
+      color: #002145;
+      text-decoration: none;
+    }
+
+    .lang-toggle a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="lang-toggle">
+    <a href="resource.html">English</a>
+  </div>
+
+  <h1><span class="emoji">📚</span>资源库</h1>
+  <p>了解隐私、安全、人工智能和数字保护的核心主题。</p>
+
+  <div class="container">
+    <a class="card" href="newcomer-guide-zh.html">新移民健康与就业指南</a>
+    <a class="card" href="how-police-use-data-zh.html">警方如何使用你的数据</a>
+    <a class="card" href="protecting-yourself-from-scams-zh.html">如何防范诈骗</a>
+    <a class="card" href="understanding-ai-in-canada-zh.html">了解加拿大人工智能</a>
+    <a class="card" href="staying-safe-online-zh.html">线上安全守则</a>
+  </div>
+</body>
+</html>
